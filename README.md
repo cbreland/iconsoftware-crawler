@@ -43,9 +43,14 @@ This program is best used via the command line.
       * -s start_date  the start date for cases to be crawled - Default will be 12 earlier
       * -e end_date    the end date for cases to be crawled - Default will be current date
       * -v verbose     if True, will print debug data
+      * -f filename    .csv filename for crawled data to be saved - Default will be (random-date.csv)   
         
-
-    
     Notes:
 
       When Passing multiple `-url` arguments, username and password will need to be the same for all urls.
+      
+ 3) Output 
+ 
+    All scraped data will be saved as a .csv file in the _'crawl_saves'_ directory.
+    
+        iconsoft_crawler > crawl_saves > example_save.csv
