@@ -1,4 +1,4 @@
-iport scrapy
+import scrapy
 
 
 class IconsoftCrawlerItem(scrapy.Item):
