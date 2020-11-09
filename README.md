@@ -1,5 +1,5 @@
 # Iconsoftware Crawler
-   This web crawler leverages [scrapy](https://github.com/scrapy/scrapy) and [scrapy-splash](https://github.com/scrapy-plugins/scrapy-splash) for crawling IconSoftware websites. These websites are typically used by U.S state and county court systems for the purpose of hosting access of public records. They are built on the .NET framework and are easily some of the hardest to scrape due to its heavy use of <frameset> HTML, image captchas, and javascript <href> links. 
+   This web crawler leverages [scrapy](https://github.com/scrapy/scrapy) and [scrapy-splash](https://github.com/scrapy-plugins/scrapy-splash) for crawling IconSoftware websites. These websites are typically used by U.S state and county court systems for the purpose of hosting access of public records. They are built on the .NET framework and are easily some of the most difficult websites to scrape. This is due to its heavy use of <frameset> HTML, image captchas, and javascript <href> links. 
   
   ** __You will need a valid username and password. This program will in no way help you bypass credentialed authentication__ **
 
